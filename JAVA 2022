@@ -9,15 +9,15 @@ local Window = Rayfield:CreateWindow({
 		FileName = "Big Hub"
 	},
         Discord = {
-        	Enabled = false,
-        	Invite = "sirius", -- The Discord invite code, do not include discord.gg/
+        	Disabled = false,
+        	Invite = "JAVA 2022", -- The Discord invite code, do not include discord.gg/
         	RememberJoins = true -- Set this to false to make them join the discord every time they load it up
         },
 	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
 		Title = "JAVA 2022",
 		Subtitle = "HI",
-		Note = "KEY=Hello",
+		Note = "KEY=Hello DISCORD SERVER=https://discord.gg/UuZmAjrh",
 		FileName = "SiriusKey",
 		SaveKey = true,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
@@ -29,7 +29,7 @@ local Tab = Window:CreateTab("THIS HUB", 4483362458) -- Title, Image
 local Paragraph = Tab:CreateParagraph({Title = "JAVA 2022", Content = "THIS HUB RAYFIELD NOT MADE ME"})
 local Paragraph = Tab:CreateParagraph({Title = "JAVA 2022", Content = "SUPPORT JAVA <->"})
 local Paragraph = Tab:CreateParagraph({Title = "JAVA 2022", Content = "CREDIT=XXXXXLLL#8314"})
-local Paragraph = Tab:CreateParagraph({Title = "JAVA 2022", Content = "DISCORD SERVER COMING SOON"})
+local Paragraph = Tab:CreateParagraph({Title = "JAVA 2022", Content = "DISCORD SERVER HAVE"})
 local Paragraph = Tab:CreateParagraph({Title = "EXECUTOR", Content = "SUPPORT KRNL.SYNAPSE AND MORE"})
 
 local Tab = Window:CreateTab("BLOXFRUIT", 4483362458)
@@ -66,5 +66,12 @@ local Button = Tab:CreateButton({
 	Name = "QUE PRO key:discord.gg/XGY5bnf3BD",
 	Callback = function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/INoobie/Lua/main/blox%20fruits', true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "CFRAME",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruit_Mobile.lua"))()
 	end,
 })
