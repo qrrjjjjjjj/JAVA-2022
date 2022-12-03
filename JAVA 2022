@@ -28,7 +28,7 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("THIS HUB", 4483362458) -- Title, Image
 local Paragraph = Tab:CreateParagraph({Title = "JAVA 2022", Content = "THIS HUB RAYFIELD NOT MADE ME"})
 local Paragraph = Tab:CreateParagraph({Title = "JAVA 2022", Content = "SUPPORT JAVA <->"})
-local Paragraph = Tab:CreateParagraph({Title = "JAVA 2022", Content = "JAVA NO HAVE DISCORD GROUP"})
+local Paragraph = Tab:CreateParagraph({Title = "JAVA 2022", Content = "CREDIT=XXXXXLLL#8314"})
 local Paragraph = Tab:CreateParagraph({Title = "JAVA 2022", Content = "DISCORD SERVER COMING SOON"})
 local Paragraph = Tab:CreateParagraph({Title = "EXECUTOR", Content = "SUPPORT KRNL.SYNAPSE AND MORE"})
 
